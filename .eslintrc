@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "no-underscore-dangle": ["error", { "allow": ["_id"] }],
+    "no-shadow": "off",
+    "no-console": "off"
+  },
+  "extends": "airbnb-base",
+  "overrides": [
+    {
+      "files": ["*.js"],
+      "rules": {
+        "import/no-dynamic-require": "off"
+      }
+    }
+  ]
+}
